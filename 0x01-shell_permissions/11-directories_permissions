@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x $(tree -d)
+chmod +x $(ls -d */)
