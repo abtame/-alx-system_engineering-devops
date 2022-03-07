@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod  -R +x  $(find $(pwd) -type d)
+find $(pwd) -type d -exec chmod +x {} \;
